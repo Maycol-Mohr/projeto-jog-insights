@@ -1,10 +1,4 @@
 from src.pre_built.sorting import sort_by
-# from unittest.mock import mock_open, patch
-# from unittest.mock import mock_open, patch
-# import pytest
-
-#  with patch("builtins.open", mock_open(read_data="file")):
-#         assert count_ocurrences('path', 'FILE') == 1
 
 jobs_list = [
     {"min_salary": 5000, "max_salary": 45000, "date_posted": "2000-05-30"},
@@ -35,9 +29,12 @@ jobs_date = [
 def test_sort_by_criteria():
     sort_by(jobs_list, 'min_salary')
     assert jobs_list == jobs_min_salary
+    # assert sort_by(jobs_list, 'min_salary') is None
 
     sort_by(jobs_list, 'max_salary')
     assert jobs_list == jobs_max_salary
+    # assert sort_by(jobs_list, 'max_salary') is None
 
     sort_by(jobs_list, 'date_posted')
     assert jobs_list == jobs_date
+    # assert sort_by(jobs_list, 'date_posted') is None
