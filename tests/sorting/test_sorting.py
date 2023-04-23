@@ -29,12 +29,9 @@ jobs_date = [
 def test_sort_by_criteria():
     sort_by(jobs_list, 'min_salary')
     assert jobs_list == jobs_min_salary
-    # assert sort_by(jobs_list, 'min_salary') is None
 
     sort_by(jobs_list, 'max_salary')
     assert jobs_list == jobs_max_salary
-    # assert sort_by(jobs_list, 'max_salary') is None
 
     sort_by(jobs_list, 'date_posted')
     assert jobs_list == jobs_date
-    # assert sort_by(jobs_list, 'date_posted') is None
