@@ -1,4 +1,19 @@
-# :construction: README customizado em construção ! :construction:
+# Habilidades a serem trabalhadas:
+
+- Utilizar o terminal interativo do Python.
+
+- Utilizar estruturas condicionais e de repetição.
+
+- Utilizar funções built-in do Python.
+
+- Utilizar tratamento de exceções.
+
+- Realizar a manipulação de arquivos.
+
+- Escrever funções.
+
+- Escrever testes com Pytest.
+- Escrever seus próprios módulos e importá-los em outros códigos.
 <!-- Olá, Tryber!
 Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
 
